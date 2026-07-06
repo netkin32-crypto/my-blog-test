@@ -25,7 +25,17 @@
         <div class="section-heading">
           <p class="eyebrow">Featured</p>
           <h2 id="posts-title">Latest posts</h2>
+          <p>Search by title, topic, author, or choose a tag to narrow the featured archive.</p>
         </div>
+        <div class="post-tools" aria-label="Post discovery tools">
+          <label class="search-field" for="post-search">
+            <span>Search posts</span>
+            <input id="post-search" type="search" name="search" placeholder="Try design, workflow, or planning" autocomplete="off" />
+          </label>
+          <div class="tag-filters" id="tag-filters" aria-label="Filter posts by tag"></div>
+        </div>
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+        <p class="empty-state" id="empty-state" hidden>No posts match those filters. Try a different keyword or tag.</p>
         <div class="post-grid" id="post-grid"></div>
       </section>
     </main>
