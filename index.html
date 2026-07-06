@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A lightweight starter blog with responsive featured posts." />
+    <title>My Blog Test</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">My Blog Test</p>
+        <h1 id="hero-title">A clean starter blog for thoughtful writing.</h1>
+        <p class="hero-copy">
+          Publish readable posts, organize ideas with metadata, and evolve this foundation into a full editorial experience.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#posts">Read featured posts</a>
+          <a class="button button-secondary" href="https://developer.mozilla.org/en-US/docs/Web" target="_blank" rel="noreferrer">Web docs</a>
+        </div>
+      </section>
+
+      <section class="posts" id="posts" aria-labelledby="posts-title">
+        <div class="section-heading">
+          <p class="eyebrow">Featured</p>
+          <h2 id="posts-title">Latest posts</h2>
+        </div>
+        <div class="post-grid" id="post-grid"></div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
