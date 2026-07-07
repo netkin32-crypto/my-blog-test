@@ -4,4 +4,13 @@ coverage
 .env
 .env.*
 !.env.example
+
+# Prisma / SQLite
+*.db
+*.db-journal
+server/data/
+server/prisma/data/
+
+# OS / editor
 .DS_Store
+*.log
